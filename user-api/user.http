@@ -1,0 +1,23 @@
+GET http://localhost:8054/user/
+
+###
+
+POST http://localhost:8054/user/add
+Content-Type: application/json
+
+{
+    "userName" : "Krithika",
+    "userDOB" : "2002-01-10",
+    "userContact" :874567879,
+    "userEmail" : "krithika345@gmail.com",
+    "userId" : 1
+
+}
+
+###
+
+GET http://localhost:8054/user/1
+
+###
+
+DELETE http://localhost:8054/user/2
