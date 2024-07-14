@@ -1,0 +1,22 @@
+GET http://localhost:8056/app/
+
+###
+
+POST http://localhost:8056/app/add
+Content-Type: application/json
+
+{
+    "appName" : "WhatsApp",
+    "appVendor" : "Meta",
+    "downloadedCount" : 50000000,
+    "ratings" : 4.7,
+    "userId" : 3
+}
+
+###
+
+GET http://localhost:8056/app/byUser/1
+
+###
+
+DELETE http://localhost:8056/app/16
